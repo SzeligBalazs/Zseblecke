@@ -1,0 +1,1762 @@
+Initialized native services in: /Users/szeligbalazs/.gradle/native
+Initialized jansi services in: /Users/szeligbalazs/.gradle/native
+Found daemon DaemonInfo{pid=14002, address=[9d720e29-3d0f-4f8c-9723-6900e81204b0 port:56019, addresses:[/127.0.0.1]], state=Idle, lastBusy=1659109508729, context=DefaultDaemonContext[uid=1660ffaf-56d4-4ed4-8216-bfb5c3762bb3,javaHome=/Applications/Android Studio.app/Contents/jre/Contents/Home,daemonRegistryDir=/Users/szeligbalazs/.gradle/daemon,pid=14002,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1536M,-Dfile.encoding=UTF-8,-Duser.country=HU,-Duser.language=hu,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home,daemonRegistryDir=/Users/szeligbalazs/.gradle/daemon,pid=14119,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1536M,-Dfile.encoding=UTF-8,-Duser.country=HU,-Duser.language=hu,-Duser.variant]
+Actual: DefaultDaemonContext[uid=1660ffaf-56d4-4ed4-8216-bfb5c3762bb3,javaHome=/Applications/Android Studio.app/Contents/jre/Contents/Home,daemonRegistryDir=/Users/szeligbalazs/.gradle/daemon,pid=14002,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx1536M,-Dfile.encoding=UTF-8,-Duser.country=HU,-Duser.language=hu,-Duser.variant]
+
+  Looking for a different daemon...
+Removing 0 daemon stop events from registry
+Previous Daemon (13149) stopped at Fri Jul 29 17:43:06 CEST 2022 stop command received
+Previous Daemon (13625) stopped at Fri Jul 29 17:45:02 CEST 2022 stop command received
+Previous Daemon (13722) stopped at Fri Jul 29 17:45:02 CEST 2022 stop command received
+Previous Daemon (13784) stopped at Fri Jul 29 17:45:02 CEST 2022 stop command received
+Starting a Gradle Daemon, 1 incompatible and 4 stopped Daemons could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: /Users/szeligbalazs/.gradle/daemon/7.4 Command: /Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home/bin/java --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx1536M -Dfile.encoding=UTF-8 -Duser.country=HU -Duser.language=hu -Duser.variant -cp /Users/szeligbalazs/.gradle/wrapper/dists/gradle-7.4-all/aadb4xli5jkdsnukm30eibyiu/gradle-7.4/lib/gradle-launcher-7.4.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.4
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 0.376 secs.
+The client will now receive all logging from the daemon (pid: 14127). The daemon log file: /Users/szeligbalazs/.gradle/daemon/7.4/daemon-14127.out.log
+Starting build in new daemon [memory: 1.5 GiB]
+Using 8 worker leases.
+Watching the file system is configured to be enabled if available
+Now considering [/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/settings.gradle'.
+Projects loaded. Root project using build file '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/build.gradle'.
+Included projects: [root project 'android', project ':app', project ':flutter_local_notifications', project ':path_provider_android', project ':sqflite']
+
+> Configure project :app
+Evaluating project ':app' using build file '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/build.gradle'.
+Parsed shrinker version: 3.1.66
+
+> Configure project :
+Evaluating root project 'android' using build file '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/build.gradle'.
+
+> Configure project :flutter_local_notifications
+Evaluating project ':flutter_local_notifications' using build file '/Users/szeligbalazs/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-6.1.1/android/build.gradle'.
+
+> Configure project :path_provider_android
+Evaluating project ':path_provider_android' using build file '/Users/szeligbalazs/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.16/android/build.gradle'.
+
+> Configure project :sqflite
+Evaluating project ':sqflite' using build file '/Users/szeligbalazs/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.3/android/build.gradle'.
+All projects evaluated.
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:compileFlutterBuildDebug', task ':app:packLibsflutterBuildDebug', task ':flutter_local_notifications:preBuild', task ':flutter_local_notifications:preDebugBuild', task ':flutter_local_notifications:compileDebugAidl', task ':path_provider_android:preBuild', task ':path_provider_android:preDebugBuild', task ':path_provider_android:compileDebugAidl', task ':sqflite:preBuild', task ':sqflite:preDebugBuild', task ':sqflite:compileDebugAidl', task ':app:compileDebugAidl', task ':flutter_local_notifications:packageDebugRenderscript', task ':path_provider_android:packageDebugRenderscript', task ':sqflite:packageDebugRenderscript', task ':app:compileDebugRenderscript', task ':app:generateDebugBuildConfig', task ':flutter_local_notifications:writeDebugAarMetadata', task ':path_provider_android:writeDebugAarMetadata', task ':sqflite:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':flutter_local_notifications:mergeDebugShaders', task ':flutter_local_notifications:compileDebugShaders', task ':flutter_local_notifications:generateDebugAssets', task ':flutter_local_notifications:packageDebugAssets', task ':path_provider_android:mergeDebugShaders', task ':path_provider_android:compileDebugShaders', task ':path_provider_android:generateDebugAssets', task ':path_provider_android:packageDebugAssets', task ':sqflite:mergeDebugShaders', task ':sqflite:compileDebugShaders', task ':sqflite:generateDebugAssets', task ':sqflite:packageDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':flutter_local_notifications:compileDebugRenderscript', task ':flutter_local_notifications:generateDebugResValues', task ':flutter_local_notifications:generateDebugResources', task ':flutter_local_notifications:packageDebugResources', task ':path_provider_android:compileDebugRenderscript', task ':path_provider_android:generateDebugResValues', task ':path_provider_android:generateDebugResources', task ':path_provider_android:packageDebugResources', task ':sqflite:compileDebugRenderscript', task ':sqflite:generateDebugResValues', task ':sqflite:generateDebugResources', task ':sqflite:packageDebugResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':flutter_local_notifications:extractDeepLinksDebug', task ':flutter_local_notifications:processDebugManifest', task ':path_provider_android:extractDeepLinksDebug', task ':path_provider_android:processDebugManifest', task ':sqflite:extractDeepLinksDebug', task ':sqflite:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':flutter_local_notifications:compileDebugLibraryResources', task ':flutter_local_notifications:parseDebugLocalResources', task ':flutter_local_notifications:generateDebugRFile', task ':path_provider_android:compileDebugLibraryResources', task ':path_provider_android:parseDebugLocalResources', task ':path_provider_android:generateDebugRFile', task ':sqflite:compileDebugLibraryResources', task ':sqflite:parseDebugLocalResources', task ':sqflite:generateDebugRFile', task ':app:processDebugResources', task ':flutter_local_notifications:generateDebugBuildConfig', task ':flutter_local_notifications:javaPreCompileDebug', task ':flutter_local_notifications:compileDebugJavaWithJavac', task ':flutter_local_notifications:bundleLibCompileToJarDebug', task ':path_provider_android:generateDebugBuildConfig', task ':path_provider_android:javaPreCompileDebug', task ':path_provider_android:compileDebugJavaWithJavac', task ':path_provider_android:bundleLibCompileToJarDebug', task ':sqflite:generateDebugBuildConfig', task ':sqflite:javaPreCompileDebug', task ':sqflite:compileDebugJavaWithJavac', task ':sqflite:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':flutter_local_notifications:processDebugJavaRes', task ':flutter_local_notifications:bundleLibResDebug', task ':path_provider_android:processDebugJavaRes', task ':path_provider_android:bundleLibResDebug', task ':sqflite:processDebugJavaRes', task ':sqflite:bundleLibResDebug', task ':app:mergeDebugJavaResource', task ':sqflite:bundleLibRuntimeToJarDebug', task ':flutter_local_notifications:bundleLibRuntimeToJarDebug', task ':path_provider_android:bundleLibRuntimeToJarDebug', task ':app:checkDebugDuplicateClasses', task ':app:dexBuilderDebug', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeDexDebug', task ':app:mergeDebugJniLibFolders', task ':flutter_local_notifications:mergeDebugJniLibFolders', task ':flutter_local_notifications:mergeDebugNativeLibs', task ':flutter_local_notifications:copyDebugJniLibsProjectOnly', task ':path_provider_android:mergeDebugJniLibFolders', task ':path_provider_android:mergeDebugNativeLibs', task ':path_provider_android:copyDebugJniLibsProjectOnly', task ':sqflite:mergeDebugJniLibFolders', task ':sqflite:mergeDebugNativeLibs', task ':sqflite:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':flutter_local_notifications:stripDebugDebugSymbols', task ':flutter_local_notifications:copyDebugJniLibsProjectAndLocalJars', task ':flutter_local_notifications:extractDebugAnnotations', task ':flutter_local_notifications:mergeDebugGeneratedProguardFiles', task ':flutter_local_notifications:mergeDebugConsumerProguardFiles', task ':flutter_local_notifications:prepareDebugArtProfile', task ':flutter_local_notifications:prepareLintJarForPublish', task ':flutter_local_notifications:mergeDebugJavaResource', task ':flutter_local_notifications:syncDebugLibJars', task ':flutter_local_notifications:bundleDebugAar', task ':flutter_local_notifications:assembleDebug', task ':path_provider_android:stripDebugDebugSymbols', task ':path_provider_android:copyDebugJniLibsProjectAndLocalJars', task ':path_provider_android:extractDebugAnnotations', task ':path_provider_android:mergeDebugGeneratedProguardFiles', task ':path_provider_android:mergeDebugConsumerProguardFiles', task ':path_provider_android:prepareDebugArtProfile', task ':path_provider_android:prepareLintJarForPublish', task ':path_provider_android:mergeDebugJavaResource', task ':path_provider_android:syncDebugLibJars', task ':path_provider_android:bundleDebugAar', task ':path_provider_android:assembleDebug', task ':sqflite:stripDebugDebugSymbols', task ':sqflite:copyDebugJniLibsProjectAndLocalJars', task ':sqflite:extractDebugAnnotations', task ':sqflite:mergeDebugGeneratedProguardFiles', task ':sqflite:mergeDebugConsumerProguardFiles', task ':sqflite:prepareDebugArtProfile', task ':sqflite:prepareLintJarForPublish', task ':sqflite:mergeDebugJavaResource', task ':sqflite:syncDebugLibJars', task ':sqflite:bundleDebugAar', task ':sqflite:assembleDebug']
+Tasks that were excluded: []
+:app:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.013 secs.
+:app:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+:app:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.009 secs.
+:app:compileFlutterBuildDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:compileFlutterBuildDebug
+Caching disabled for task ':app:compileFlutterBuildDebug' because:
+  Build cache is disabled
+Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+  Value of input property 'dartDefines' has changed for task ':app:compileFlutterBuildDebug'
+  Value of input property 'fileSystemScheme' has changed for task ':app:compileFlutterBuildDebug'
+  Value of input property 'targetPath' has changed for task ':app:compileFlutterBuildDebug'
+Starting process 'command '/Users/szeligbalazs/flutter_sdk/flutter/bin/flutter''. Working directory: /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke Command: /Users/szeligbalazs/flutter_sdk/flutter/bin/flutter --quiet assemble --no-version-check --depfile /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug/flutter_build.d --output /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true debug_android_application
+Successfully started process 'command '/Users/szeligbalazs/flutter_sdk/flutter/bin/flutter''
+Starting process 'command 'chmod''. Working directory: /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app Command: chmod -R u+w /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug/flutter_assets
+Successfully started process 'command 'chmod''
+:app:compileFlutterBuildDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 1.435 secs.
+:app:packLibsflutterBuildDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:packLibsflutterBuildDebug
+Caching disabled for task ':app:packLibsflutterBuildDebug' because:
+  Build cache is disabled
+Task ':app:packLibsflutterBuildDebug' is not up-to-date because:
+  Input property 'rootSpec$1$2.caseSensitive' has been added for task ':app:packLibsflutterBuildDebug'
+  Input property 'rootSpec$1$2.destPath' has been added for task ':app:packLibsflutterBuildDebug'
+  Input property 'rootSpec$1$2.dirMode' has been added for task ':app:packLibsflutterBuildDebug'
+file or directory '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug/armeabi-v7a', not found
+file or directory '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug/arm64-v8a', not found
+file or directory '/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/flutter/debug/x86_64', not found
+:app:packLibsflutterBuildDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.021 secs.
+:flutter_local_notifications:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+Skipping task ':flutter_local_notifications:preBuild' as it has no actions.
+:flutter_local_notifications:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:preDebugBuild UP-TO-DATE
+Skipping task ':flutter_local_notifications:preDebugBuild' as it has no actions.
+:flutter_local_notifications:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:compileDebugAidl NO-SOURCE
+Skipping task ':flutter_local_notifications:compileDebugAidl' as it has no source files and no previous output files.
+:flutter_local_notifications:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.003 secs.
+:path_provider_android:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:preBuild UP-TO-DATE
+Skipping task ':path_provider_android:preBuild' as it has no actions.
+:path_provider_android:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+Skipping task ':path_provider_android:preDebugBuild' as it has no actions.
+:path_provider_android:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:compileDebugAidl NO-SOURCE
+Skipping task ':path_provider_android:compileDebugAidl' as it has no source files and no previous output files.
+:path_provider_android:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:preBuild UP-TO-DATE
+Skipping task ':sqflite:preBuild' as it has no actions.
+:sqflite:preBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:preDebugBuild UP-TO-DATE
+Skipping task ':sqflite:preDebugBuild' as it has no actions.
+:sqflite:preDebugBuild (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:compileDebugAidl NO-SOURCE
+Skipping task ':sqflite:compileDebugAidl' as it has no source files and no previous output files.
+:sqflite:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:compileDebugAidl NO-SOURCE
+Skipping task ':app:compileDebugAidl' as it has no source files and no previous output files.
+:app:compileDebugAidl (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:packageDebugRenderscript NO-SOURCE
+Skipping task ':flutter_local_notifications:packageDebugRenderscript' as it has no source files and no previous output files.
+:flutter_local_notifications:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:packageDebugRenderscript NO-SOURCE
+Skipping task ':path_provider_android:packageDebugRenderscript' as it has no source files and no previous output files.
+:path_provider_android:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.002 secs.
+:sqflite:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:packageDebugRenderscript NO-SOURCE
+Skipping task ':sqflite:packageDebugRenderscript' as it has no source files and no previous output files.
+:sqflite:packageDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:app:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:compileDebugRenderscript NO-SOURCE
+Skipping task ':app:compileDebugRenderscript' as it has no source files and no previous output files.
+:app:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:app:generateDebugBuildConfig (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+:app:generateDebugBuildConfig (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.006 secs.
+:flutter_local_notifications:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:writeDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:writeDebugAarMetadata' as it is up-to-date.
+:flutter_local_notifications:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:path_provider_android:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':path_provider_android:writeDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:writeDebugAarMetadata' as it is up-to-date.
+:path_provider_android:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:sqflite:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':sqflite:writeDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':sqflite:writeDebugAarMetadata' as it is up-to-date.
+:sqflite:writeDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:checkDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) started.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarToClassTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarToClassTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarToClassTransform
+Transforming kotlin-stdlib-jdk7-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10) with JetifyTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with JetifyTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with AarToClassTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarToClassTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarToClassTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with JetifyTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar as it is up-to-date.
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1dc040da1dbc089bc0975f01b6f78018/transformed/jetified-annotation-experimental-1.1.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1dc040da1dbc089bc0975f01b6f78018/transformed/jetified-annotation-experimental-1.1.0.aar as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar as it is up-to-date.
+Transforming lifecycle-common-java8-2.2.0.jar (androidx.lifecycle:lifecycle-common-java8:2.2.0) with JetifyTransform
+Transforming kotlin-stdlib-jdk8-1.5.30.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar as it is up-to-date.
+Transforming lifecycle-common-java8-2.2.0.jar (androidx.lifecycle:lifecycle-common-java8:2.2.0) with IdentityTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.30/5fd47535cc85f9e24996f939c2de6583991481b0/kotlin-stdlib-jdk8-1.5.30.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.30/5fd47535cc85f9e24996f939c2de6583991481b0/kotlin-stdlib-jdk8-1.5.30.jar as it is up-to-date.
+Transforming kotlin-stdlib-jdk8-1.5.30.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/bf1c1216bd6ae07994ad3865cc233715/transformed/jetified-kotlin-stdlib-jdk8-1.5.30.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/bf1c1216bd6ae07994ad3865cc233715/transformed/jetified-kotlin-stdlib-jdk8-1.5.30.jar as it is up-to-date.
+Transforming annotation-1.2.0.jar (androidx.annotation:annotation:1.2.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar as it is up-to-date.
+Transforming annotation-1.2.0.jar (androidx.annotation:annotation:1.2.0) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar as it is up-to-date.
+Transforming kotlin-stdlib-common-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.10/c118700e3a33c8a0d9adc920e9dec0831171925/kotlin-stdlib-common-1.6.10.jar as it is up-to-date.
+Transforming kotlin-stdlib-common-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/775bbb9baefa867ead960bb63dccd35f/transformed/jetified-kotlin-stdlib-common-1.6.10.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/775bbb9baefa867ead960bb63dccd35f/transformed/jetified-kotlin-stdlib-common-1.6.10.jar as it is up-to-date.
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar as it is up-to-date.
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarToClassTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar as it is up-to-date.
+Transforming core-common-2.1.0.jar (androidx.arch.core:core-common:2.1.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10/e1c380673654a089c4f0c9f83d0ddfdc1efdb498/kotlin-stdlib-jdk7-1.6.10.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10/e1c380673654a089c4f0c9f83d0ddfdc1efdb498/kotlin-stdlib-jdk7-1.6.10.jar as it is up-to-date.
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar as it is up-to-date.
+Transforming kotlin-stdlib-jdk7-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10) with IdentityTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar as it is up-to-date.
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
+Transforming core-common-2.1.0.jar (androidx.arch.core:core-common:2.1.0) with IdentityTransform
+Transforming kotlin-stdlib-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib:1.6.10) with JetifyTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c1ad1417f1a0d960d63d2b4e99f2c3ab/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar because:
+  Build cache is disabled
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c1ad1417f1a0d960d63d2b4e99f2c3ab/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar as it is up-to-date.
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar as it is up-to-date.
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/fe47202bbd17130d7341826fb320014b/transformed/jetified-activity-1.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/fe47202bbd17130d7341826fb320014b/transformed/jetified-activity-1.0.0.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar because:
+  Build cache is disabled
+work action Parameters of DexingWithClasspathTransform (Thread[Execution worker for ':',5,main]) started.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar as it is up-to-date.
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with AarToClassTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d742cecfb9af51effcb2f82c5fa547fe/transformed/jetified-annotations-13.0.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d742cecfb9af51effcb2f82c5fa547fe/transformed/jetified-annotations-13.0.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar because:
+  Build cache is disabled
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.10/b8af3fe6f1ca88526914929add63cf5e7c5049af/kotlin-stdlib-1.6.10.jar as it is up-to-date.
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar as it is up-to-date.
+Transforming kotlin-stdlib-1.6.10.jar (org.jetbrains.kotlin:kotlin-stdlib:1.6.10) with IdentityTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.2.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2) with JetifyTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c0314e47cfdb88c484579924d748772c/transformed/jetified-kotlin-stdlib-1.6.10.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c0314e47cfdb88c484579924d748772c/transformed/jetified-kotlin-stdlib-1.6.10.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar as it is up-to-date.
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarToClassTransform
+Transforming collection-1.1.0.jar (androidx.collection:collection:1.1.0) with JetifyTransform
+Transforming kotlinx-coroutines-android-1.5.2.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2/f4cc07a50437659e0043e7da762809a46932b6a0/kotlinx-coroutines-core-jvm-1.5.2.jar because:
+  Build cache is disabled
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2/f4cc07a50437659e0043e7da762809a46932b6a0/kotlinx-coroutines-core-jvm-1.5.2.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar as it is up-to-date.
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar as it is up-to-date.
+Transforming kotlinx-coroutines-core-jvm-1.5.2.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2) with IdentityTransform
+Transforming collection-1.1.0.jar (androidx.collection:collection:1.1.0) with IdentityTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with JetifyTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2/d246a704a55b7bddb79407cce4348890eaa341d9/kotlinx-coroutines-android-1.5.2.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.2/d246a704a55b7bddb79407cce4348890eaa341d9/kotlinx-coroutines-android-1.5.2.jar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar because:
+  Build cache is disabled
+Transforming kotlinx-coroutines-android-1.5.2.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2) with IdentityTransform
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/efb248efc67e5b15184e44f46099cae3/transformed/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/efb248efc67e5b15184e44f46099cae3/transformed/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar as it is up-to-date.
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/598adb5e9149720d13f0bd0a0dcb6ee8/transformed/jetified-kotlinx-coroutines-android-1.5.2.jar because:
+  Build cache is disabled
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarToClassTransform
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/598adb5e9149720d13f0bd0a0dcb6ee8/transformed/jetified-kotlinx-coroutines-android-1.5.2.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.window/window/1.0.0-beta04/a48b0773f8c0b0e0e8bbc7c1d1fa8f8beb44de37/window-1.0.0-beta04.aar because:
+  Build cache is disabled
+Transforming flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar (io.flutter:flutter_embedding_debug:1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b) with JetifyTransform
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.window/window/1.0.0-beta04/a48b0773f8c0b0e0e8bbc7c1d1fa8f8beb44de37/window-1.0.0-beta04.aar as it is up-to-date.
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with AarToClassTransform
+work action Parameters of DexingWithClasspathTransform (Thread[Execution worker for ':',5,main]) completed. Took 0.012 secs.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar because:
+  Build cache is disabled
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker for ':',5,main]) started.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar as it is up-to-date.
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/dcca310ba1e8b5dce8d0314e8c1bbabe/transformed/jetified-window-1.0.0-beta04.aar because:
+  Build cache is disabled
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/911d26153820c6909b394ef06949d837/transformed/jetified-tracing-1.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/dcca310ba1e8b5dce8d0314e8c1bbabe/transformed/jetified-window-1.0.0-beta04.aar as it is up-to-date.
+Transforming flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar (io.flutter:flutter_embedding_debug:1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_debug/1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b/a46f9c0bdc924e6acd004972f3c653730a6e5811/flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_debug/1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b/a46f9c0bdc924e6acd004972f3c653730a6e5811/flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar as it is up-to-date.
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar (io.flutter:flutter_embedding_debug:1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b) with IdentityTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar because:
+  Build cache is disabled
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with JetifyTransform
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/911d26153820c6909b394ef06949d837/transformed/jetified-tracing-1.0.0.aar as it is up-to-date.
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with AarToClassTransform
+Transforming lifecycle-common-2.2.0.jar (androidx.lifecycle:lifecycle-common:2.2.0) with JetifyTransform
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar as it is up-to-date.
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarToClassTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarToClassTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/07994e762a8068ecfa921ca0377582ab/transformed/jetified-flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/07994e762a8068ecfa921ca0377582ab/transformed/jetified-flutter_embedding_debug-1.0.0-6ba2af10bb05c88a2731482cedf2cfd11cf5af0b.jar as it is up-to-date.
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarToClassTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarToClassTransform
+Transforming gson-2.8.6.jar (com.google.code.gson:gson:2.8.6) with JetifyTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with JetifyTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with AarToClassTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarToClassTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar as it is up-to-date.
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarToClassTransform
+Transforming lifecycle-common-2.2.0.jar (androidx.lifecycle:lifecycle-common:2.2.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar as it is up-to-date.
+Transforming lifecycle-common-2.2.0.jar (androidx.lifecycle:lifecycle-common:2.2.0) with IdentityTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar because:
+  Build cache is disabled
+Transforming threetenbp-1.4.2-no-tzdb.jar (org.threeten:threetenbp:1.4.2) with JetifyTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1306448dfb03867a0c4d1928861ecf93/transformed/jetified-window-java-1.0.0-beta04.aar because:
+  Build cache is disabled
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1306448dfb03867a0c4d1928861ecf93/transformed/jetified-window-java-1.0.0-beta04.aar as it is up-to-date.
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar as it is up-to-date.
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming gson-2.8.6.jar (com.google.code.gson:gson:2.8.6) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar as it is up-to-date.
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarToClassTransform
+Transforming lifecycle-common-2.2.0.jar (androidx.lifecycle:lifecycle-common:2.2.0) with IdentityTransform
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/45e8d4b38037d5cc8e21e8b4295d4036/transformed/jetified-threetenabp-1.2.3.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.4.2/57e6f9d97daa37560acdd69966d7996696d42397/threetenbp-1.4.2-no-tzdb.jar because:
+  Build cache is disabled
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2d60fd33370e98ea7c21377366edea42/transformed/jetified-gson-2.8.6.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2d60fd33370e98ea7c21377366edea42/transformed/jetified-gson-2.8.6.jar as it is up-to-date.
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/45e8d4b38037d5cc8e21e8b4295d4036/transformed/jetified-threetenabp-1.2.3.aar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.4.2/57e6f9d97daa37560acdd69966d7996696d42397/threetenbp-1.4.2-no-tzdb.jar as it is up-to-date.
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ff49702af287eb529de05fb3b98c0e33/transformed/jetified-savedstate-1.0.0.aar because:
+  Build cache is disabled
+Transforming threetenbp-1.4.2-no-tzdb.jar (org.threeten:threetenbp:1.4.2) with IdentityTransform
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ff49702af287eb529de05fb3b98c0e33/transformed/jetified-savedstate-1.0.0.aar as it is up-to-date.
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar because:
+  Build cache is disabled
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar as it is up-to-date.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker for ':' Thread 5,5,main]) started.
+Skipping AarToClassTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ceef32711ccae6ae9532b9e3182edb63/transformed/jetified-threetenbp-1.4.2-no-tzdb.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ceef32711ccae6ae9532b9e3182edb63/transformed/jetified-threetenbp-1.4.2-no-tzdb.jar as it is up-to-date.
+Transforming failureaccess-1.0.1.jar (com.google.guava:failureaccess:1.0.1) with JetifyTransform
+Transforming listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava) with JetifyTransform
+Transforming guava-28.1-android.jar (com.google.guava:guava:28.1-android) with JetifyTransform
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with JetifyTransform
+Transforming error_prone_annotations-2.3.2.jar (com.google.errorprone:error_prone_annotations:2.3.2) with JetifyTransform
+Transforming j2objc-annotations-1.3.jar (com.google.j2objc:j2objc-annotations:1.3) with JetifyTransform
+Transforming animal-sniffer-annotations-1.18.jar (org.codehaus.mojo:animal-sniffer-annotations:1.18) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because:
+  Build cache is disabled
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.1-android/c2526f8fad32a65a6d7032dd8e9524eb276b108b/guava-28.1-android.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.1-android/c2526f8fad32a65a6d7032dd8e9524eb276b108b/guava-28.1-android.jar as it is up-to-date.
+Transforming listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava) with IdentityTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar because:
+  Build cache is disabled
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e31ae795838ce961dd97f3e2fb3400a4/transformed/jetified-jsr305-3.0.2.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar as it is up-to-date.
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e31ae795838ce961dd97f3e2fb3400a4/transformed/jetified-jsr305-3.0.2.jar as it is up-to-date.
+Transforming guava-28.1-android.jar (com.google.guava:guava:28.1-android) with IdentityTransform
+Transforming j2objc-annotations-1.3.jar (com.google.j2objc:j2objc-annotations:1.3) with IdentityTransform
+Transforming failureaccess-1.0.1.jar (com.google.guava:failureaccess:1.0.1) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0fd1871a6e9992e8cc6c77c38c04a8cd/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0fd1871a6e9992e8cc6c77c38c04a8cd/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar as it is up-to-date.
+Transforming checker-compat-qual-2.5.5.jar (org.checkerframework:checker-compat-qual:2.5.5) with JetifyTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/7e2695035d599cbd25dbb668dfa272a7/transformed/jetified-j2objc-annotations-1.3.jar because:
+  Build cache is disabled
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/6a44eaa40cd435b4ff81bf33cce1d4af/transformed/jetified-guava-28.1-android.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/7e2695035d599cbd25dbb668dfa272a7/transformed/jetified-j2objc-annotations-1.3.jar as it is up-to-date.
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/6a44eaa40cd435b4ff81bf33cce1d4af/transformed/jetified-guava-28.1-android.jar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.2/d1a0c5032570e0f64be6b4d9c90cdeb103129029/error_prone_annotations-2.3.2.jar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.18/f7aa683ea79dc6681ee9fb95756c999acbb62f5d/animal-sniffer-annotations-1.18.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.2/d1a0c5032570e0f64be6b4d9c90cdeb103129029/error_prone_annotations-2.3.2.jar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/b525ae14d8af959e912785ce80d5e7f4/transformed/jetified-failureaccess-1.0.1.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.18/f7aa683ea79dc6681ee9fb95756c999acbb62f5d/animal-sniffer-annotations-1.18.jar as it is up-to-date.
+Transforming error_prone_annotations-2.3.2.jar (com.google.errorprone:error_prone_annotations:2.3.2) with IdentityTransform
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/b525ae14d8af959e912785ce80d5e7f4/transformed/jetified-failureaccess-1.0.1.jar as it is up-to-date.
+destroyer locations for task group 0 (Thread[Execution worker for ':' Thread 4,5,main]) started.
+Transforming animal-sniffer-annotations-1.18.jar (org.codehaus.mojo:animal-sniffer-annotations:1.18) with IdentityTransform
+destroyer locations for task group 0 (Thread[Execution worker for ':' Thread 4,5,main]) completed. Took 0.0 secs.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar as it is up-to-date.
+Transforming checker-compat-qual-2.5.5.jar (org.checkerframework:checker-compat-qual:2.5.5) with IdentityTransform
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2e557137b6f55d2c056129adc0aaa1a0/transformed/jetified-animal-sniffer-annotations-1.18.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2e557137b6f55d2c056129adc0aaa1a0/transformed/jetified-animal-sniffer-annotations-1.18.jar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/f66609b532f674c6589281b8df911fad/transformed/jetified-error_prone_annotations-2.3.2.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/f66609b532f674c6589281b8df911fad/transformed/jetified-error_prone_annotations-2.3.2.jar as it is up-to-date.
+Caching disabled for IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2626a7f6ac52f7fd257210f837793efb/transformed/jetified-checker-compat-qual-2.5.5.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/2626a7f6ac52f7fd257210f837793efb/transformed/jetified-checker-compat-qual-2.5.5.jar as it is up-to-date.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with JetifyTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.window/window-java/1.0.0-beta04/ef1688d892f6dc05c9e1568cbb6355d35f2428d6/window-java-1.0.0-beta04.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.window/window-java/1.0.0-beta04/ef1688d892f6dc05c9e1568cbb6355d35f2428d6/window-java-1.0.0-beta04.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.0.0/ed7a64df6e3fbebf7d3d3dfc30b0f47efcc707f7/activity-1.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.0.0/ed7a64df6e3fbebf7d3d3dfc30b0f47efcc707f7/activity-1.0.0.aar as it is up-to-date.
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with ExtractAarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with ExtractAarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/fe47202bbd17130d7341826fb320014b/transformed/jetified-activity-1.0.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/fe47202bbd17130d7341826fb320014b/transformed/jetified-activity-1.0.0.aar as it is up-to-date.
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar because:
+  Build cache is disabled
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with AarTransform
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar as it is up-to-date.
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar because:
+  Build cache is disabled
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar as it is up-to-date.
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar as it is up-to-date.
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1306448dfb03867a0c4d1928861ecf93/transformed/jetified-window-java-1.0.0-beta04.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1306448dfb03867a0c4d1928861ecf93/transformed/jetified-window-java-1.0.0-beta04.aar as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 as it is up-to-date.
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 as it is up-to-date.
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.0.0/6d39721808cd67e3d3d0d60f194907615fcaa69c/savedstate-1.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.0.0/6d39721808cd67e3d3d0d60f194907615fcaa69c/savedstate-1.0.0.aar as it is up-to-date.
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.media/media/1.1.0/a8c134beb67a788bf17cec313782f2a221c87c31/media-1.1.0.aar as it is up-to-date.
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with AarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ff49702af287eb529de05fb3b98c0e33/transformed/jetified-savedstate-1.0.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ff49702af287eb529de05fb3b98c0e33/transformed/jetified-savedstate-1.0.0.aar as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.1.0/5481c9aca18271c977d67b30e26f484f3f8f1c02/annotation-experimental-1.1.0.aar because:
+  Build cache is disabled
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 as it is up-to-date.
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.1.0/5481c9aca18271c977d67b30e26f484f3f8f1c02/annotation-experimental-1.1.0.aar as it is up-to-date.
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1dc040da1dbc089bc0975f01b6f78018/transformed/jetified-annotation-experimental-1.1.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/1dc040da1dbc089bc0975f01b6f78018/transformed/jetified-annotation-experimental-1.1.0.aar as it is up-to-date.
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/c5be9edf9ca9135a465d23939f6e7d0e1cf90b41/core-runtime-2.0.0.aar as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 as it is up-to-date.
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.6.0/10775f024a338475a5e374033f4532a7b3d8994f/core-1.6.0.aar as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 as it is up-to-date.
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar as it is up-to-date.
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/69cef34711dffbc517e7a0a419ec4a98f84f496a/tracing-1.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/69cef34711dffbc517e7a0a419ec4a98f84f496a/tracing-1.0.0.aar as it is up-to-date.
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/911d26153820c6909b394ef06949d837/transformed/jetified-tracing-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/911d26153820c6909b394ef06949d837/transformed/jetified-tracing-1.0.0.aar as it is up-to-date.
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar as it is up-to-date.
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 as it is up-to-date.
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar because:
+  Build cache is disabled
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar as it is up-to-date.
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/682d06cc95e0632efdb9cfcc18828840ac941148/lifecycle-viewmodel-2.1.0.aar as it is up-to-date.
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 as it is up-to-date.
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with JetifyTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/c17007cd0b21d6401910b0becdd16c438c68a9af/lifecycle-livedata-2.0.0.aar as it is up-to-date.
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.jakewharton.threetenabp/threetenabp/1.2.3/7d040de52466c8e306b91d4c46e995875062ec8b/threetenabp-1.2.3.aar because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 as it is up-to-date.
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+Skipping JetifyTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/com.jakewharton.threetenabp/threetenabp/1.2.3/7d040de52466c8e306b91d4c46e995875062ec8b/threetenabp-1.2.3.aar as it is up-to-date.
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with ExtractAarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with JetifyTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/1a7cee84b43fa935231b016f0665cd56a72fa9db/lifecycle-livedata-core-2.0.0.aar as it is up-to-date.
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/45e8d4b38037d5cc8e21e8b4295d4036/transformed/jetified-threetenabp-1.2.3.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/45e8d4b38037d5cc8e21e8b4295d4036/transformed/jetified-threetenabp-1.2.3.aar as it is up-to-date.
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 as it is up-to-date.
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/dcca310ba1e8b5dce8d0314e8c1bbabe/transformed/jetified-window-1.0.0-beta04.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/dcca310ba1e8b5dce8d0314e8c1bbabe/transformed/jetified-window-1.0.0-beta04.aar as it is up-to-date.
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 because:
+  Build cache is disabled
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 as it is up-to-date.
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar as it is up-to-date.
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with AarTransform
+Caching disabled for ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar because:
+  Build cache is disabled
+Skipping ExtractAarTransform: /Users/szeligbalazs/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar as it is up-to-date.
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 as it is up-to-date.
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+:app:checkDebugAarMetadata (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.147 secs.
+:app:cleanMergeDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:cleanMergeDebugAssets
+Caching disabled for task ':app:cleanMergeDebugAssets' because:
+  Build cache is disabled
+Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+:app:cleanMergeDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.003 secs.
+:app:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+:app:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:app:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+:app:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+:app:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:mergeDebugShaders' as it is up-to-date.
+:flutter_local_notifications:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:flutter_local_notifications:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:compileDebugShaders NO-SOURCE
+Skipping task ':flutter_local_notifications:compileDebugShaders' as it has no source files and no previous output files.
+:flutter_local_notifications:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:generateDebugAssets UP-TO-DATE
+Skipping task ':flutter_local_notifications:generateDebugAssets' as it has no actions.
+:flutter_local_notifications:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:packageDebugAssets UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:packageDebugAssets' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:packageDebugAssets' as it is up-to-date.
+:flutter_local_notifications:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:path_provider_android:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':path_provider_android:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:mergeDebugShaders' as it is up-to-date.
+:path_provider_android:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:path_provider_android:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:compileDebugShaders NO-SOURCE
+Skipping task ':path_provider_android:compileDebugShaders' as it has no source files and no previous output files.
+:path_provider_android:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:generateDebugAssets UP-TO-DATE
+Skipping task ':path_provider_android:generateDebugAssets' as it has no actions.
+:path_provider_android:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:packageDebugAssets UP-TO-DATE
+Caching disabled for task ':path_provider_android:packageDebugAssets' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:packageDebugAssets' as it is up-to-date.
+:path_provider_android:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:sqflite:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':sqflite:mergeDebugShaders' because:
+  Build cache is disabled
+Skipping task ':sqflite:mergeDebugShaders' as it is up-to-date.
+:sqflite:mergeDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:compileDebugShaders NO-SOURCE
+Skipping task ':sqflite:compileDebugShaders' as it has no source files and no previous output files.
+:sqflite:compileDebugShaders (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:generateDebugAssets UP-TO-DATE
+Skipping task ':sqflite:generateDebugAssets' as it has no actions.
+:sqflite:generateDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:packageDebugAssets UP-TO-DATE
+Caching disabled for task ':sqflite:packageDebugAssets' because:
+  Build cache is disabled
+Skipping task ':sqflite:packageDebugAssets' as it is up-to-date.
+:sqflite:packageDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.003 secs.
+:app:mergeDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) started.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) completed. Took 0.126 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker for ':',5,main]) completed. Took 0.066 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.048 secs.
+
+> Task :app:mergeDebugAssets
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with ExtractAarTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with JetifyTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with ExtractAarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with AarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with JetifyTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with ExtractAarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with AarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with ExtractAarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with JetifyTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with ExtractAarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with JetifyTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with ExtractAarTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with ExtractAarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with JetifyTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with ExtractAarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 as it is up-to-date.
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+Task ':app:mergeDebugAssets' is not up-to-date because:
+  Output property 'incrementalFolder' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/incremental/mergeDebugAssets has been removed.
+  Output property 'incrementalFolder' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/incremental/mergeDebugAssets/merger.xml has been removed.
+  Output property 'outputDir' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/assets/debug/mergeDebugAssets has been removed.
+The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+Unable do incremental execution: full task run
+:app:mergeDebugAssets (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.08 secs.
+:app:copyFlutterAssetsDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:copyFlutterAssetsDebug
+Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+  Build cache is disabled
+Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+  Output property 'destinationDir' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets has been removed.
+  Output property 'destinationDir' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.json has been removed.
+  Output property 'destinationDir' file /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/FontManifest.json has been removed.
+:app:copyFlutterAssetsDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 1.678 secs.
+:app:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+:app:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Skipping task ':app:generateDebugResources' as it has no actions.
+:app:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:compileDebugRenderscript NO-SOURCE
+Skipping task ':flutter_local_notifications:compileDebugRenderscript' as it has no source files and no previous output files.
+:flutter_local_notifications:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:generateDebugResValues' as it is up-to-date.
+:flutter_local_notifications:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:generateDebugResources UP-TO-DATE
+Skipping task ':flutter_local_notifications:generateDebugResources' as it has no actions.
+:flutter_local_notifications:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:packageDebugResources UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:packageDebugResources' as it is up-to-date.
+:flutter_local_notifications:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.007 secs.
+:path_provider_android:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:compileDebugRenderscript NO-SOURCE
+Skipping task ':path_provider_android:compileDebugRenderscript' as it has no source files and no previous output files.
+:path_provider_android:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':path_provider_android:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:generateDebugResValues' as it is up-to-date.
+:path_provider_android:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:generateDebugResources UP-TO-DATE
+Skipping task ':path_provider_android:generateDebugResources' as it has no actions.
+:path_provider_android:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:path_provider_android:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :path_provider_android:packageDebugResources UP-TO-DATE
+Caching disabled for task ':path_provider_android:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:packageDebugResources' as it is up-to-date.
+:path_provider_android:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:sqflite:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:compileDebugRenderscript NO-SOURCE
+Skipping task ':sqflite:compileDebugRenderscript' as it has no source files and no previous output files.
+:sqflite:compileDebugRenderscript (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':sqflite:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':sqflite:generateDebugResValues' as it is up-to-date.
+:sqflite:generateDebugResValues (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:generateDebugResources UP-TO-DATE
+Skipping task ':sqflite:generateDebugResources' as it has no actions.
+:sqflite:generateDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:sqflite:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :sqflite:packageDebugResources UP-TO-DATE
+Caching disabled for task ':sqflite:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':sqflite:packageDebugResources' as it is up-to-date.
+:sqflite:packageDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:app:mergeDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with ExtractAarTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with JetifyTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with ExtractAarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with AarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with JetifyTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with ExtractAarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with AarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with ExtractAarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with JetifyTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with ExtractAarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 because:
+  Build cache is disabled
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 because:
+  Build cache is disabled
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 as it is up-to-date.
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 as it is up-to-date.
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with ExtractAarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 because:
+  Build cache is disabled
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 as it is up-to-date.
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 because:
+  Build cache is disabled
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 as it is up-to-date.
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 as it is up-to-date.
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 because:
+  Build cache is disabled
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 as it is up-to-date.
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with JetifyTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with ExtractAarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 as it is up-to-date.
+Watching 1 directory hierarchies to track changes
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+:app:mergeDebugResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.03 secs.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:app:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+:app:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:extractDeepLinksDebug' as it is up-to-date.
+:flutter_local_notifications:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:flutter_local_notifications:processDebugManifest (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :flutter_local_notifications:processDebugManifest UP-TO-DATE
+Caching disabled for task ':flutter_local_notifications:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':flutter_local_notifications:processDebugManifest' as it is up-to-date.
+:flutter_local_notifications:processDebugManifest (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.002 secs.
+:path_provider_android:extractDeepLinksDebug (Thread[included builds,5,main]) started.
+
+> Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':path_provider_android:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:extractDeepLinksDebug' as it is up-to-date.
+:path_provider_android:extractDeepLinksDebug (Thread[included builds,5,main]) completed. Took 0.001 secs.
+:path_provider_android:processDebugManifest (Thread[included builds,5,main]) started.
+
+> Task :path_provider_android:processDebugManifest UP-TO-DATE
+Caching disabled for task ':path_provider_android:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':path_provider_android:processDebugManifest' as it is up-to-date.
+:path_provider_android:processDebugManifest (Thread[included builds,5,main]) completed. Took 0.001 secs.
+:sqflite:extractDeepLinksDebug (Thread[included builds,5,main]) started.
+
+> Task :sqflite:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':sqflite:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':sqflite:extractDeepLinksDebug' as it is up-to-date.
+:sqflite:extractDeepLinksDebug (Thread[included builds,5,main]) completed. Took 0.0 secs.
+:sqflite:processDebugManifest (Thread[included builds,5,main]) started.
+
+> Task :sqflite:processDebugManifest UP-TO-DATE
+Caching disabled for task ':sqflite:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':sqflite:processDebugManifest' as it is up-to-date.
+:sqflite:processDebugManifest (Thread[included builds,5,main]) completed. Took 0.001 secs.
+:app:processDebugMainManifest (Thread[included builds,5,main]) started.
+
+> Task :app:processDebugMainManifest FAILED
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with JetifyTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with ExtractAarTransform
+Transforming window-java-1.0.0-beta04.aar (androidx.window:window-java:1.0.0-beta04) with AarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with JetifyTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with ExtractAarTransform
+Transforming window-1.0.0-beta04.aar (androidx.window:window:1.0.0-beta04) with AarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with JetifyTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with ExtractAarTransform
+Transforming media-1.1.0.aar (androidx.media:media:1.1.0) with AarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with JetifyTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with ExtractAarTransform
+Transforming fragment-1.1.0.aar (androidx.fragment:fragment:1.1.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with JetifyTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with ExtractAarTransform
+Transforming activity-1.0.0.aar (androidx.activity:activity:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 because:
+  Build cache is disabled
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with JetifyTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0 as it is up-to-date.
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with ExtractAarTransform
+Transforming core-1.6.0.aar (androidx.core:core:1.6.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 because:
+  Build cache is disabled
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with JetifyTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0 as it is up-to-date.
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with ExtractAarTransform
+Transforming threetenabp-1.2.3.aar (com.jakewharton.threetenabp:threetenabp:1.2.3) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with JetifyTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with ExtractAarTransform
+Transforming lifecycle-runtime-2.2.0.aar (androidx.lifecycle:lifecycle-runtime:2.2.0) with AarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with JetifyTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with ExtractAarTransform
+Transforming savedstate-1.0.0.aar (androidx.savedstate:savedstate:1.0.0) with AarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+Transforming lifecycle-livedata-2.0.0.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.0.0.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 because:
+  Build cache is disabled
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3 as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0 as it is up-to-date.
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 because:
+  Build cache is disabled
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+Transforming core-runtime-2.0.0.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0 as it is up-to-date.
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with JetifyTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.1.0.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0) with AarTransform
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with JetifyTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 because:
+  Build cache is disabled
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with ExtractAarTransform
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+Transforming annotation-experimental-1.1.0.aar (androidx.annotation:annotation-experimental:1.1.0) with AarTransform
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 because:
+  Build cache is disabled
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0 as it is up-to-date.
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1 as it is up-to-date.
+Caching disabled for AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 because:
+  Build cache is disabled
+Skipping AarTransform: /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0 as it is up-to-date.
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Task ':app:processDebugMainManifest' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:processDebugMainManifest'.
+Unable do incremental execution: full task run
+Loading library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml
+Loading library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml
+Loading library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml
+Loading library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml
+Merging flavors and build manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml 
+
+Merging main manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+
+Merging manifest with lower AndroidManifest.xml:1:1-34:12
+Adopted [application: null]
+Adopted [uses-sdk: null]
+Merging library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml
+Merging manifest with lower [:sqflite] AndroidManifest.xml:2:1-9:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [:sqflite] AndroidManifest.xml:5:5-7:41
+Merging library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml
+Merging manifest with lower [:flutter_local_notifications] AndroidManifest.xml:2:1-25:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [:flutter_local_notifications] AndroidManifest.xml:5:5-7:41
+Adopted [uses-permission: null]
+Adopted [uses-permission: null]
+Adopted [uses-permission: null]
+application defined in both files...
+Merging application with lower [:flutter_local_notifications] AndroidManifest.xml:13:5-23:19
+Adopted [receiver: null]
+Adopted [receiver: null]
+Merging library manifest /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml
+Merging manifest with lower [:path_provider_android] AndroidManifest.xml:2:1-9:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [:path_provider_android] AndroidManifest.xml:5:5-7:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml
+Merging manifest with lower [androidx.window:window-java:1.0.0-beta04] AndroidManifest.xml:17:1-23:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.window:window-java:1.0.0-beta04] AndroidManifest.xml:19:5-21:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml
+Merging manifest with lower [androidx.window:window:1.0.0-beta04] AndroidManifest.xml:17:1-33:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.window:window:1.0.0-beta04] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.window:window:1.0.0-beta04] AndroidManifest.xml:24:5-31:19
+Adopted [uses-library: null]
+Adopted [uses-library: null]
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/AndroidManifest.xml
+Merging manifest with lower [androidx.media:media:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.media:media:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml
+Merging manifest with lower [androidx.fragment:fragment:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.fragment:fragment:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.viewpager:viewpager:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.loader:loader:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.activity:activity:1.0.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.activity:activity:1.0.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.customview:customview:1.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.customview:customview:1.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml
+Merging manifest with lower [androidx.core:core:1.6.0] AndroidManifest.xml:17:1-26:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.core:core:1.6.0] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.core:core:1.6.0] AndroidManifest.xml:24:5-89
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml
+Merging manifest with lower [com.jakewharton.threetenabp:threetenabp:1.2.3] AndroidManifest.xml:2:1-9:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [com.jakewharton.threetenabp:threetenabp:1.2.3] AndroidManifest.xml:5:5-44
+application defined in both files...
+Merging application with lower [com.jakewharton.threetenabp:threetenabp:1.2.3] AndroidManifest.xml:7:5-20
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-runtime:2.2.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-runtime:2.2.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.savedstate:savedstate:1.0.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.savedstate:savedstate:1.0.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata:2.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata:2.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-livedata-core:2.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-livedata-core:2.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.tracing:tracing:1.0.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.tracing:tracing:1.0.0] AndroidManifest.xml:20:5-22:41
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml
+Merging manifest with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:17:1-27:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:20:5-22:41
+application defined in both files...
+Merging application with lower [androidx.versionedparcelable:versionedparcelable:1.1.1] AndroidManifest.xml:24:5-25:19
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0/AndroidManifest.xml
+Merging manifest with lower [androidx.arch.core:core-runtime:2.0.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.arch.core:core-runtime:2.0.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml
+Merging manifest with lower [androidx.lifecycle:lifecycle-viewmodel:2.1.0] AndroidManifest.xml:17:1-22:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.lifecycle:lifecycle-viewmodel:2.1.0] AndroidManifest.xml:20:5-44
+Merging library manifest /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml
+Merging manifest with lower [androidx.annotation:annotation-experimental:1.1.0] AndroidManifest.xml:17:1-24:12
+uses-sdk defined in both files...
+Merging uses-sdk with lower [androidx.annotation:annotation-experimental:1.1.0] AndroidManifest.xml:20:5-22:41
+Merging result: ERROR
+-- Merging decision tree log ---
+application
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-23:19
+MERGED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-23:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:sqflite] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-25:12
+MERGED from [:path_provider_android] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+MERGED from [:sqflite] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/e0c414601472373f45eb984833a825a1/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/szeligbalazs/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/szeligbalazs/.gradle/caches/transforms-3/05df374bd6cec637144cd03e828ffc38/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/szeligbalazs/.gradle/caches/transforms-3/025f0ebb178f72f967988fd890b9b9c6/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/szeligbalazs/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/szeligbalazs/.gradle/caches/transforms-3/57003bf956257e647aeaeb419a007e24/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/szeligbalazs/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android/app/src/debug/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-106
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:19-103
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:20
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-107
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-21:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-79
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/szeligbalazs/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+
+
+See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
+
+:app:processDebugMainManifest (Thread[included builds,5,main]) completed. Took 0.067 secs.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4/userguide/command_line_interface.html#sec:command_line_warnings
+34 actionable tasks: 6 executed, 28 up-to-date
+Watched directory hierarchies: [/Volumes/Data/development/flutter_projects/Zseblecke/zseblecke/android]
