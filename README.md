@@ -1,11 +1,11 @@
 <h1 align="center">Zseblecke</h1>
 
 <div align="center">
-<img src="assets/icon/icon_1024_rounded.png" style="width: 35%" alt="Zseblecke ikonja">
-<br>
-<br>
-<h3>Mentsd el a házi feladataidat és kapj értesítseket róluk, hogy ne felejtsd el őket.</h3>
-<a href='https://play.google.com/store/apps/details?id=com.szeligbalazs.zseblecke&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width: 35%" alt='Szerezd meg: Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/hu_badge_web_generic.png'/></a>
+    <img src="assets/icon/icon_1024_rounded.png" style="width: 35%" alt="Zseblecke ikonja">
+    <br>
+    <br>
+    <h3>Mentsd el a házi feladataidat és kapj értesítseket róluk, hogy ne felejtsd el őket.</h3>
+    <a href='https://play.google.com/store/apps/details?id=com.szeligbalazs.zseblecke&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width: 25%" alt='Szerezd meg: Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/hu_badge_web_generic.png'/></a>
 </div>
 
 ---
@@ -21,9 +21,7 @@ Ha kíváncsi vagy, hogy hogyan kell használni appot, nézd meg a bemutatóvide
 
 <br>
 
-<center>
-    <h1><a href="https://www.youtube.com/watch?v=ZJaOuEDPLGI">Videó 📺</a></h1>
-</center>
+<h1 align="center"><a href="https://www.youtube.com/watch?v=ZJaOuEDPLGI">Videó 📺</a></h1>
 
 <br>
 
@@ -42,16 +40,16 @@ dart_date: ^1.1.1
 timezone: ^0.8.0
 ```
 
-
 ## Hiba bejelentése
 
 Ha hibát találtál az alkalmazásban, kérlek jelezd a Play Áruházban egy értékelés formájában.
 
+-- Vagy --
 
-<center>
-    <h3>
-        Köszönöm a figyelmet!
-        <br>
-        Szélig Balázs 2022
-    </h3>
-</center>
+Navigálj az **Issue**-k menüpontra és hozz létre egy új issue-t a **Hiba bejelentése** sablon segítségével. Töltsd ki, majd küld el!
+
+<h3 align="center">
+    Köszönöm a figyelmet!
+    <br>
+    Szélig Balázs 2022
+</h3>
